@@ -90,7 +90,13 @@ main > div#container-flex > div#text > p > a:hover {
     transition: .5s;
 }
 
-main > p > a#inverso {
+main > div#container-flex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main > div#container-flex2 > div#text-patrocine > p > a#inverso {
     border: 1px solid black;
     padding: 10px;
     border-radius: 18px;
@@ -100,7 +106,7 @@ main > p > a#inverso {
     transition: .5s;
 }
 
-main > p > a#inverso:hover {
+main > div#container-flex2 > div#text-patrocine > p > a#inverso:hover {
     background-color: #1168fd;
     color: white;
     transition: .5s;
