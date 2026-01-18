@@ -10,6 +10,7 @@ header {
     background-color: #1168fd;
     padding: 15px;
     color: white;
+    margin-bottom: 80px;
 }
 
 header > h1 {
@@ -34,4 +35,29 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     color: #d9d9d9;
     text-decoration: underline;
+}
+
+main {
+    margin: 10px;
+}
+
+main > div#container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 800px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+main > div#container-flex > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 200px;
+    background-color: #daf4f9;
+    padding: 15px;
+    border-radius: 15px;
 }
