@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -93,10 +94,14 @@ main > div#container-flex > div#text > p > a:hover {
 main > div#container-flex2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-main > div#container-flex2 > div#text-patrocine > p > a#inverso {
+main > div#container-flex2 > div#text-apoie > p > a#inverso {
+    font-size: 25px;
     border: 1px solid black;
     padding: 10px;
     border-radius: 18px;
@@ -106,7 +111,15 @@ main > div#container-flex2 > div#text-patrocine > p > a#inverso {
     transition: .5s;
 }
 
-main > div#container-flex2 > div#text-patrocine > p > a#inverso:hover {
+main > div#container-flex2 > div#text-apoie > p {
+    margin-bottom: 50px;
+}
+
+main > div#container-flex2 > div#text-apoie > h1 > strong {
+    color: #004bcd;
+}
+
+main > div#container-flex2 > div#text-apoie > p > a#inverso:hover {
     background-color: #1168fd;
     color: white;
     transition: .5s;
