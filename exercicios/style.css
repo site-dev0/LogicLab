@@ -37,6 +37,10 @@ main {
     margin: 10px;
 }
 
+main > h2#primeiro-titulo {
+    margin-top: 50px;
+}
+
 main > div#container-lista_ex {
     display: flex;
     flex-wrap: wrap;

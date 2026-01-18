@@ -53,8 +53,7 @@ main > div#container-flex {
 main > div#container-flex > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     gap: 10px;
     flex: 1 1 200px;
     background-color: #daf4f9;
