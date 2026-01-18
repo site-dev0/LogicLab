@@ -60,4 +60,5 @@ main > div#container-flex > div {
     background-color: #daf4f9;
     padding: 15px;
     border-radius: 15px;
+    line-height: 25px;
 }
