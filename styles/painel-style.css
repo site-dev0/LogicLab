@@ -10,11 +10,6 @@ header {
     background-color: #1168fd;
     padding: 15px;
     color: white;
-    margin-bottom: 80px;
-}
-
-header > h1 {
-    font-size: 7vh;
 }
 
 nav {
@@ -38,28 +33,39 @@ nav > ul > li > a:hover {
 }
 
 main {
-    margin: 10px;
+    margin: 15px;
 }
 
 main > div#container-flex {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    max-width: 800px;
-    gap: 40px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
-main > div#container-flex > div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-    flex: 1 1 200px;
-    background-color: #daf4f9;
+main > div#container-flex > a > div {
+    background-color: #3780fc;
+    color: white;
     padding: 15px;
+    width: 250px;
+    text-align: center;
     border-radius: 15px;
-    line-height: 25px;
+    transition: .5s;
+}
+
+main > div#container-flex > a {
+    text-decoration: none;
+}
+
+main > div#container-flex > a:hover > div {
+    background-color: #1a6bf6;
+    color: white;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 15px;
+    transition: .5s;
 }
 
 footer {

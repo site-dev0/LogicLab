@@ -83,6 +83,7 @@ main > div#container-flex > div#text > p > a {
     background-color: #1168fd;
     color: white;
     text-decoration: none;
+    transition: .5s;
 }
 
 main > div#container-flex > div#text > p > a:hover {
@@ -123,4 +124,17 @@ main > div#container-flex2 > div#text-apoie > p > a#inverso:hover {
     background-color: #1168fd;
     color: white;
     transition: .5s;
+}
+
+footer {
+    margin: 0;
+    height: 100%;
+    background-color: #1168fd;
+    padding: 15px;
+    color: white;
+}
+
+footer > div#container {
+    display: flex;
+    flex-wrap: wrap;
 }
