@@ -53,6 +53,7 @@ main > div#container-flex > a > div {
     text-align: center;
     border-radius: 15px;
     transition: .5s;
+    border: 1.6px solid black;
 }
 
 main > div#container-flex > a {
@@ -67,9 +68,10 @@ main > div#container-flex > a:hover > div {
 footer {
     margin-top: 400px;
     height: 100%;
-    background-color: #1168fd;
+    background-color: #cbcaca;
     padding: 15px;
     color: white;
+    border-top: 2px solid #1168fd;
 }
 
 footer > div#container {

@@ -37,10 +37,6 @@ nav > ul > li > a:hover {
     text-decoration: underline;
 }
 
-main {
-    margin: 10px;
-}
-
 main > div#container-flex {
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +46,8 @@ main > div#container-flex {
     margin: 0 auto;
 }
 
-main > div#container-flex > div {
+main > div#container-flex > div#item1, div#item2 {
+    margin: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -62,10 +59,26 @@ main > div#container-flex > div {
     line-height: 25px;
 }
 
-footer {
+main > div#container {
+    color: #242424;
+    font-size: 3.5vh;
     margin-top: 100px;
+    background-color: #1fe5ff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+main > div#container > div#container-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
     height: 100%;
-    background-color: #1168fd;
+    background-color: #cbcacc;
     padding: 15px;
     color: white;
 }
