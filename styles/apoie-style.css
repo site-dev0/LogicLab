@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1168fd;
+    padding: 15px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #d9d9d9;
+    text-decoration: underline;
+}
+
+main {
+    margin: 15px;
+}
+
+main > div#container-flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+main > div#container-flex1 > div#container-flex2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+main > ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+main > ol > li {
+    margin-top: 20px;
+}
+
+main > h2#titulo-apoios {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    height: 100%;
+    background-color: #1168fd;
+    padding: 15px;
+    color: white;
+}
+
+footer > div#container {
+    display: flex;
+    flex-wrap: wrap;
+}
