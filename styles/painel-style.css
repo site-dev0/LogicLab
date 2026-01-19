@@ -10,6 +10,7 @@ header {
     background-color: #1168fd;
     padding: 15px;
     color: white;
+    margin-bottom: 100px;
 }
 
 nav {
@@ -60,16 +61,11 @@ main > div#container-flex > a {
 
 main > div#container-flex > a:hover > div {
     background-color: #1a6bf6;
-    color: white;
-    padding: 15px;
-    width: 250px;
-    text-align: center;
-    border-radius: 15px;
     transition: .5s;
 }
 
 footer {
-    margin: 0;
+    margin-top: 400px;
     height: 100%;
     background-color: #1168fd;
     padding: 15px;
