@@ -36,3 +36,17 @@ nav > ul > li > a:hover {
     color: #d9d9d9;
     text-decoration: underline;
 }
+
+main {
+    margin: 15px;
+    text-align: center;
+}
+
+main > section#definicoes > dl > dt {
+    margin-top: 20px;
+}
+
+main > section#definicoes > dl > dd {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
