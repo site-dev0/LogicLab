@@ -37,6 +37,14 @@ main {
     margin: 15px;
 }
 
+span {
+    color: #1168fd;
+}
+
+h2 {
+    font-size: 6vh;
+}
+
 main > div#container-flex1 {
     display: flex;
     flex-wrap: wrap;
@@ -46,10 +54,34 @@ main > div#container-flex1 {
 }
 
 main > div#container-flex1 > div#container-flex2 {
+    align-items: center;
     display: flex;
     flex-direction: column;
     width: 60%;
+    gap: 10px;
 }
+
+
+main > div#container-flex1 > div#container-flex2 > p > a {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000000;
+    transition: .5s;
+}
+
+main > div#container-flex1 > div#container-flex2 > p > a:hover {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1168fd;
+    box-shadow: 0.5px 1px 7px black;
+    transition: .5s;
+}
+
 
 main > ol {
     text-align: center;
