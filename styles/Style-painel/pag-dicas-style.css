@@ -36,3 +36,12 @@ nav > ul > li > a:hover {
 main {
     margin-left: 10px;
 }
+
+main > div {
+    text-align: center;
+    background-color: #3daeff;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}

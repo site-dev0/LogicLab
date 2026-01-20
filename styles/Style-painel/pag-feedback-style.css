@@ -33,6 +33,10 @@ nav > ul > li > a:hover {
     text-decoration: underline;
 }
 
+main {
+    margin-left: 10px;
+}
+
 main > div#container-flex {
     display: flex;
     justify-content: center;
@@ -42,4 +46,25 @@ main > div#container-flex {
 main > p.aviso {
     color: #f93030;
     margin-left: 20px;
+}
+
+main > p.voltar > a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+main > p.voltar > a:hover {
+    color: #3daeff;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+main > div {
+    text-align: center;
+    background-color: rgb(115, 115, 115);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
 }
