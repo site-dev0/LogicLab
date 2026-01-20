@@ -43,10 +43,40 @@ main > div#flex-container {
     justify-content: center;
 }
 
-main > div#flex-container > div#text{
+main > div#flex-container > div#text {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 60%;
+}
+
+span {
+    color: #1168fd;
+}
+
+main > div#flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 50px;
+}
+
+main > div#flex-container2 > p > a {
+    color: black;
+    text-decoration: none;
+    border: 1.5px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #d2d2d2;
+    transition: .5s;
+}
+
+main > div#flex-container2 > p > a:hover {
+    color: #ffffff;
+    background-color: #1168fd;
+    transition: .5s;
 }

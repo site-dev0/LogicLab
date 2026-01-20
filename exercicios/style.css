@@ -53,7 +53,7 @@ main > div#container-lista_ex > div.lista_ex {
     padding: 10px;
     text-align: center;
     width: 250px;
-    height: 400px;
+    height: 430px;
     flex-basis: auto;
     box-sizing: border-box;
     box-shadow: 2px 2px 4px black;
@@ -63,7 +63,6 @@ main > div#container-lista_ex > div.lista_ex {
 
 main > div#container-lista_ex > div.lista_ex:hover {
     width: 280px;
-    height: 400px;
     box-shadow: 2px 2px 6px black;
     transition: .4s;
 }
