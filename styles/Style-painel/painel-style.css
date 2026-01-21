@@ -53,7 +53,7 @@ main > div#container-flex > a > div {
     background-color: #3780fc;
     color: white;
     width: 200px;
-    height: 160px;
+    height: 120px;
     text-align: center;
     border-radius: 15px;
     transition: .5s;
@@ -69,11 +69,22 @@ main > div#container-flex > a:hover > div {
     transition: .5s;
 }
 
-main > div#container-flex > a > div > p.para-apoiador {
+main > div#container-flex > a > div.normal{
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+main > div#container-flex > a > div.apoiador {
+    width: 230px;
+    height: 184px;
+}
+
+main > div#container-flex > a > div.apoiador > p.para-apoiador {
     color: black;
     background-color: #ffce2d;
-    width: 120px;
     padding: 5px;
+    width: 140px;
     margin-left: 0;
     border-bottom-right-radius: 18px;
     border-top-right-radius: 18px;
