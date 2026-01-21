@@ -37,7 +37,7 @@ main {
     margin: 10px;
 }
 
-main > h2#primeiro-titulo {
+main > h2#primeiro-title {
     margin-top: 50px;
 }
 
@@ -53,7 +53,7 @@ main > div#container-lista_ex > div.lista_ex {
     padding: 10px;
     text-align: center;
     width: 250px;
-    height: 430px;
+    height: 450px;
     flex-basis: auto;
     box-sizing: border-box;
     box-shadow: 2px 2px 4px black;
