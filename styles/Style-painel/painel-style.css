@@ -52,9 +52,8 @@ h2 {
 main > div#container-flex > a > div {
     background-color: #3780fc;
     color: white;
-    padding: 15px;
     width: 200px;
-    height: 120px;
+    height: 160px;
     text-align: center;
     border-radius: 15px;
     transition: .5s;
@@ -68,6 +67,16 @@ main > div#container-flex > a {
 main > div#container-flex > a:hover > div {
     background-color: #1a6bf6;
     transition: .5s;
+}
+
+main > div#container-flex > a > div > p.para-apoiador {
+    color: black;
+    background-color: #ffce2d;
+    width: 120px;
+    padding: 5px;
+    margin-left: 0;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
 }
 
 footer {

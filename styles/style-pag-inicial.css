@@ -24,6 +24,27 @@ header > h1 > span {
     color: #00ddff;
 }
 
+header > p#comecar {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 3.7vh;
+}
+
+header > p#comecar > a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .6s;
+}
+
+header > p#comecar > a:hover {
+    background-color: white;
+    color: #1168fd;
+    transition: .6s;
+}
+
 nav {
     display: flex;
 }
