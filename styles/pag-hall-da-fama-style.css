@@ -59,8 +59,14 @@ main > table > tbody > tr > td {
     padding: 15px;
 }
 
-main > table > tbody > tr > td > p > a {
+a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: dashed;
+    color: #969696;
 }
 
 main > table > tbody > tr > td > p > a > i {
