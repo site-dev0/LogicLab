@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../emitir-certificado.js"></script>
+    <link rel="shortcut icon" href="../../../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../styles/Style-painel/validar-certificado-styles/certificados-style.css/certificado-python.css">
+    <title>LogicLab / Emitir certificado - Python </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="../../../index.html"><img src="../../../assets/Logo_LogicLab.png" alt="Logo LogicLab"></a>
+            </div>
+            <ul>
+                <li><a href="../../pag-painel.html">Voltar ao painel</a></li>
+                <li><a href="../../../index.html">Ir ao início</a></li>
+                <li><a href="../pag-emitir-certificado.html">Voltar a página de emissão</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h1>Parabéns! Você conseguiu!</h1>
+        <h4>Início >> painel >> emitir certificados >> python</h4>
+        <p>Emita seu certificado de Python AGORA!</p>
+    </header>
+    <main>
+        <p class="nao-imprimir">Preencha os campos a seguir para emitir seu certificado.</p>
+
+        <p class="nao-imprimir">* AVISO: preencha corretamente senão seu certificado será gerado de forma incorreta.</p>
+
+        <input type="text" id="nome-input" placeholder="Digite seu nome completo" class="nao-imprimir">
+
+        <input type="text" id="projeto-github-input" placeholder="Link de um projeto do LogicLab no GitHub" class="nao-imprimir">
+
+        <input type="button" value="Gerar certificado" onclick="gerar_certificado()" class="nao-imprimir">
+
+        <hr class="nao-imprimir">
+
+        <div id="certificado">
+            <h1>Certificamos que</h1>
+            <h2 id="nome">Fulano de Tal</h2>
+            <p>completou de forma <strong>exemplar</strong> os exercícios de Python da Jornada Iniciante do LogicLab.</p>
+
+            <h3 id="project">Projeto Final: ...</h3>
+            
+            <div id="ceo">
+                <h3>Lucas Pereira Cabral</h3>
+                <hr>
+                <h3>Fundador do LogicLab</h3>
+            </div>
+
+            <div id="container-flex">
+                <img src="../../../assets/Logo_LogicLab.png" alt="Imagem da plataforma LogicLab">
+                <p id="emissao">Emitido pelo sistema do LogicLab - https://site-dev0.github.io/LogicLab/index.html</p>
+            </div>
+            <br>
+            <h4 id="data">Data de emissão: ...</h4>
+            
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/lista-python-verif-script.js"></script>
+     <link rel="shortcut icon" href="../../../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../styles/Style-painel/validar-certificado-styles/listas-verif-style/lista-python-verif-style.css">
+    <title>LogicLab / Emitir certificado e validar - Python </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="../../../index.html"><img src="../../../assets/Logo_LogicLab.png" alt="Logo LogicLab"></a>
+            </div>
+            <ul>
+                <li><a href="../../pag-painel.html">Voltar ao painel</a></li>
+                <li><a href="../../../index.html">Ir ao início</a></li>
+                <li><a href="../pag-emitir-certificado.html">Voltar a página de emissão</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h1>Emitir certificado de Python e validar</h1>
+        <h4>Início >> painel >> emitir certificados >> python</h4>
+        <p>Emita seu certificado de Python mas antes verificaremos se você realmente sabe o conteúdo abordado nos exercícios de Python</p>
+    </header>
+    <main id="main">
+        <h1>Teste Final</h1>
+        <hr>
+        <h2>1. Como fazer um "Hello, world" em Python?</h2>
+        <p>(A) <input type="radio" name="q1" value="A"> print("Hello, World")</p>
+        <p>(B) <input type="radio" name="q1" value="B" checked> write("Hello, World")</p>
+        <p>(C) <input type="radio" name="q1" value="C"> console.log("Hello, World")</p>
+        <p>(D) <input type="radio" name="q1" value="D"> printf("Hello, World")</p>
+        <hr>
+        <h2>2. Como mostrar o valor de uma variável em Python?</h2>
+        <p>(A) <input type="radio" name="q2" value="A"> print(nome)</p>
+        <p>(B) <input type="radio" name="q2" value="B" checked> write(nome)</p>
+        <p>(C) <input type="radio" name="q2" value="C"> console.log("nome")</p>
+        <p>(D) <input type="radio" name="q2" value="D"> printf("${nome}")</p>
+        <hr>
+        <h2>3. Como somar 2 números em Python?</h2>
+        <p>(A) <input type="radio" name="q3" value="A"> print(2 + 2)</p>
+        <p>(B) <input type="radio" name="q3" value="B" checked> write("2 + 2")</p>
+        <p>(C) <input type="radio" name="q3" value="C"> console.log(2 + 2)</p>
+        <p>(D) <input type="radio" name="q3" value="D"> print("2 + 2")</p>
+        <hr>
+        <h2>4. O que é preciso para criar um programa verificador?</h2>
+        <p>(A) <input type="radio" name="q4" value="A"> laços de repetição</p>
+        <p>(B) <input type="radio" name="q4" value="B" checked> sinal de *</p>
+        <p>(C) <input type="radio" name="q4" value="C"> declaração de ponteiros</p>
+        <p>(D) <input type="radio" name="q4" value="D"> Nada</p>
+        <hr>
+        <h2>5. Para criar uma calculadora o que NÃO precisamos?</h2>
+        <p>(A) <input type="radio" name="q5" value="A"> laços de repetição</p>
+        <p>(B) <input type="radio" name="q5" value="B" checked> estruturas condicionais</p>
+        <p>(C) <input type="radio" name="q5" value="C"> Nada</p>
+        <p>(D) <input type="radio" name="q5" value="D"> operadores relacionais</p>
+        <hr>
+        <h2>6. Qual categoria é esse operador / ?</h2>
+        <p>(A) <input type="radio" name="q6" value="A"> Lógicos</p>
+        <p>(B) <input type="radio" name="q6" value="B" checked> Aritiméticos</p>
+        <p>(C) <input type="radio" name="q6" value="C"> Comparação</p>
+        <p>(D) <input type="radio" name="q6" value="D"> Atribuição</p>
+        <hr>
+        <div id="container-flex">
+            <p>Verifique se suas respostas estão certas!</p>
+            <input type="button" value="Verificar" id="verificar" onclick="verificar_respostas()">
+        </div>
+    </main>
+</body>
+</html>
