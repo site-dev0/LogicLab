@@ -14,7 +14,7 @@ function gerar_certificado(){
     let nome_input = window.document.getElementById("nome-input").value
     let projeto_github_input = window.document.getElementById("projeto-github-input").value
 
-    if( nome_input === "" || projeto_github === "") {
+    if( nome_input === "" || projeto_github_input === "") {
         window.alert("[AVISO] Preencha os campos!")
         return
     }

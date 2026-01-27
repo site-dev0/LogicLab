@@ -48,7 +48,7 @@ function verificar_respostas(){
         }
     }
 
-    if (resp1 === "A") {
+    if (resp1 === "B") {
         acertos++
     }
 
@@ -60,15 +60,15 @@ function verificar_respostas(){
         acertos++
     }
 
-    if (resp4 === "A") {
+    if (resp4 === "B") {
         acertos++
     }
 
-    if (resp5 === "C") {
+    if (resp5 === "A") {
         acertos++
     }
 
-    if (resp6 === "B") {
+    if (resp6 === "A") {
         acertos++
     }
 
@@ -77,14 +77,14 @@ function verificar_respostas(){
         <h2>&#127942; 
         Resultado: ${acertos}/6 de acertos </h2>
         <p>Parabéns você passou e pode emitir seu certificado!</p>
-        <p><a href="../emitir-certificados/pag-certificado-python.html">&#127891;  Emitir certificado</a></p>
+        <p><a href="../emitir-certificados/pag-certificado-htmlecss.html">&#127891;  Emitir certificado</a></p>
         `
     } else {
         main.innerHTML = `
         <h2>&#128170; 
         Resultado: ${acertos}/6 de acertos </h2>
         <p>A média é 4, infelizmente você não passou. Lembre-se: a persistência leva ao sucesso.</p>
-        <p><a href="lista-python-verif.html">&#128257; Tentar novamente</a></p>
+        <p><a href="lista-htmlecss-verif.html">&#128257; Tentar novamente</a></p>
         `
     }
 }
