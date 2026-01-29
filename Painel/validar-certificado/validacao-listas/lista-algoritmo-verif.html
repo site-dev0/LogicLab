@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/lista-algoritmo-verif-script.js"></script>
+     <link rel="shortcut icon" href="../../../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../styles/Style-painel/validar-certificado-styles/listas-verif-style/lista-algoritmo-verif-style.css">
+    <title>LogicLab / Emitir certificado e validar - Algoritmo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="../../../index.html"><img src="../../../assets/Logo_LogicLab.png" alt="Logo LogicLab"></a>
+            </div>
+            <ul>
+                <li><a href="../../pag-painel.html">Voltar ao painel</a></li>
+                <li><a href="../../../index.html">Ir ao início</a></li>
+                <li><a href="../pag-emitir-certificado.html">Voltar a página de emissão</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h1>Emitir certificado de Algoritmo e validar</h1>
+        <h4>Início >> painel >> emitir certificados >> algoritmo</h4>
+        <p>Emita seu certificado mas antes verificaremos se você realmente sabe o conteúdo abordado nos exercícios de Algoritmo.</p>
+    </header>
+    <main id="main">
+        <h1>Teste Final</h1>
+        <hr>
+        <h2>1. Como poderiamos pensar em um sistema que soma dois números?</h2>
+        <p>(A) <input type="radio" name="q1" value="A">Pegamos dois números e o somamos.</p>
+        <p>(B) <input type="radio" name="q1" value="B" checked> Poderiamos criar variáveis para guardar inputs de usuários e depois guardar a soma em uma outra variável e mostrar no terminal.</p>
+        <p>(C) <input type="radio" name="q1" value="C">Pega somente os dois números e os multiplicamos.</p>
+        <p>(D) <input type="radio" name="q1" value="D"> Pegar as entradas de dados e mostrar, somar elas em uma variável e mostrar sem a conversão de int antes do input.</p>
+        <hr>
+        <h2>2. Quais tecnologias podem ser usadas para criar um sistema que multiplica números por exemplo?</h2>
+        <p>(A) <input type="radio" name="q2" value="A"> Python.</p>
+        <p>(B) <input type="radio" name="q2" value="B" checked> HTML</p>
+        <p>(C) <input type="radio" name="q2" value="C"> CSS</p>
+        <p>(D) <input type="radio" name="q2" value="D">Nenhuma.</p>
+        <hr>
+        <h2>3. Como escrevemos instruções para o computador seguir?</h2>
+        <p>(A) <input type="radio" name="q3" value="A"> Temos que escrever instruções a o computador de forma clara, literal e passo a passo para que o computador entenda</p>
+        <p>(B) <input type="radio" name="q3" value="B" checked> Temos que escrever de forma simples, e que tenha um duplo sentido e não precisamos de passo a passo.</p>
+        <p>(C) <input type="radio" name="q3" value="C">Temos que escrever de forma legal e interessante para o computador gostar.</p>
+        <p>(D) <input type="radio" name="q3" value="D"> Temos que escrever de forma que tudo de uma vez sem verificações.</p>
+        <hr>
+        <h2>4. O que é algoritmo?</h2>
+        <p>(A) <input type="radio" name="q4" value="A"> Um tipo de sistema que resolve algoritmos de matemática.</p>
+        <p>(B) <input type="radio" name="q4" value="B" checked> Uma máquina que resolve problemas.</p>
+        <p>(C) <input type="radio" name="q4" value="C"> Uma sequência de passos claros para resolver um problema.</p>
+        <p>(D) <input type="radio" name="q4" value="D"> Nada.</p>
+        <hr>
+        <h2>5. Qual é a base do raciocínio que os computadores seguem?</h2>
+        <p>(A) <input type="radio" name="q5" value="A"> Lógica e matemática.</p>
+        <p>(B) <input type="radio" name="q5" value="B" checked> Emocional.</p>
+        <p>(C) <input type="radio" name="q5" value="C"> Intuição e criatividade</p>
+        <p>(D) <input type="radio" name="q5" value="D"> Experiência pessoal.</p>
+        <hr>
+        <h2>6. Para que servem as linguagens de programação?</h2>
+        <p>(A) <input type="radio" name="q6" value="A"> Para dar instruções ao computador</p>
+        <p>(B) <input type="radio" name="q6" value="B" checked>Para brincar com o computador</p>
+        <p>(C) <input type="radio" name="q6" value="C"> Para estilizar o computador.</p>
+        <p>(D) <input type="radio" name="q6" value="D"> Para nada.</p>
+        <hr>
+        <div id="container-flex">
+            <p>Verifique se suas respostas estão certas!</p>
+            <input type="button" value="Verificar" id="verificar" onclick="verificar_respostas()">
+        </div>
+    </main>
+</body>
+</html>
