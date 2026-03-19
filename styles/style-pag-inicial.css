@@ -15,22 +15,33 @@ header {
     padding: 15px;
     color: white;
 }
+header > div.container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
-header > h1 {
+header > div.container-flex > div > h1 {
     font-size: 7vh;
 }
 
-header > h1 > span {
+header > div.container-flex > div >  h1 > span {
     color: #00ddff;
 }
 
-header > p#comecar {
+header > div.container-flex > div > img {
+    width: 100%;
+    
+}
+
+header > div.container-flex > div > p#comecar {
     margin-top: 40px;
     margin-left: 50px;
     font-size: 3.7vh;
 }
 
-header > p#comecar > a {
+header > div.container-flex > div > p#comecar > a {
     border: 1px solid white;
     color: white;
     text-decoration: none;
@@ -39,7 +50,7 @@ header > p#comecar > a {
     transition: .6s;
 }
 
-header > p#comecar > a:hover {
+header > div.container-flex > div > p#comecar > a:hover {
     background-color: white;
     color: #1168fd;
     transition: .6s;
