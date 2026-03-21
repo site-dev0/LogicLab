@@ -60,7 +60,7 @@ function verificar_respostas(){
         acertos++
     }
 
-    if (resp4 === "A") {
+    if (resp4 === "B") {
         acertos++
     }
 
