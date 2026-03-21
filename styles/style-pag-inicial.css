@@ -18,12 +18,13 @@ header {
 header > div.container-flex {
     display: flex;
     flex-direction: row;
-    
+    width: 100%;
+    height: 100%;
     align-items: center;
 }
 
 header > div.container-flex > div > h1 {
-    font-size: 7vh;
+    font-size: 8vh;
 }
 
 header > div.container-flex > div >  h1 > span {
@@ -34,6 +35,12 @@ header > div.container-flex > div > img {
     width: 100%;
     height: 100%;
     
+}
+
+@media (max-width: 768px){
+    header > div.container-flex > div > img {
+        display: none;
+    }
 }
 
 header > div.container-flex > div > p#comecar {
