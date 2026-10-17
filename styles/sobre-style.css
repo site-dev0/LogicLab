@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1168fd;
+    padding: 15px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+header > h1 {
+    font-size: 7vh;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #d9d9d9;
+    text-decoration: underline;
+}
+
+main > div#container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 800px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+main > div#container-flex > div#item1, div#item2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    flex: 1 1 200px;
+    background-color: #daf4f9;
+    padding: 15px;
+    border-radius: 15px;
+    line-height: 25px;
+}
+
+main > div#container {
+    color: #242424;
+    font-size: 3.5vh;
+    margin-top: 100px;
+    background-color: #1fe5ff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+main > div#container > div#container-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    height: 100%;
+    background-color: #cbcacc;
+    padding: 15px;
+    color: white;
+}
+
+footer > div#container {
+    display: flex;
+    flex-wrap: wrap;
+}
